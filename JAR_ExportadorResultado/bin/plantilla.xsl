@@ -1,5 +1,6 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml" indent="yes"/>
+<xsl:param name="fondo1" select="'#00FFFF'"/>
 <xsl:template match="/">
   <html> 
   <head>
@@ -55,7 +56,7 @@
       <tr>
         <td class="celda" colspan="2">Empresa: <xsl:value-of select="empresa"/></td>
         <td class="celda" colspan="2">Habitación: <xsl:value-of select="habitacion"/></td>                
-      </tr>
+      </tr>      
       </xsl:for-each>
     </table>  
     <table width="100%" cellpadding="0px" cellspacing="0px">
@@ -67,7 +68,31 @@
     		<td class="celdaTitulo" width="20%">Unidad</td>
     	</tr>
     </table>
-      
+    <table width="100%">
+    	<tr>
+    		<td>       		
+    					
+    			<img src="Fondo1.jpg" width="30px" height="30px"/>
+    			
+    			<table width="50%">
+    				<tr width="100%">
+    				<td border="1" bgcolor="#00FF00" width="33%">500</td>
+    				<td border="1" bgcolor="#00FF00" width="34%">200</td>
+    				<td border="1" bgcolor="#0000FF" width="33%">400</td>
+    				</tr>
+    			</table>
+    		</td>
+    		<td>
+    			<table width="50%">
+    				<tr width="100%">
+    				<td border="1" bgcolor="#FF0000" width="33%">100</td>
+    				<td border="1" bgcolor="#00FF00" width="34%">200</td>
+    				<td border="1" bgcolor="#0000FF" width="33%">400</td>
+    				</tr>
+    			</table>
+    		</td>
+    	</tr>
+    </table>
   </body>
   </html>
 </xsl:template>

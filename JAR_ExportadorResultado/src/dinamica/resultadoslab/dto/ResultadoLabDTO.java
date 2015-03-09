@@ -29,8 +29,15 @@ public class ResultadoLabDTO {
 	private String apellidoMaterno;
 	private String fecha_servicio_texto;
 	private String fecha_reporte_texto;
+	private String fondo1;
 	
-	
+		
+	public String getFondo1() {
+		return fondo1;
+	}
+	public void setFondo1(String fondo1) {
+		this.fondo1 = fondo1;
+	}
 	public String getFecha_servicio_texto() {
 		return fecha_servicio_texto;
 	}
