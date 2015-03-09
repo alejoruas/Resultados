@@ -1,0 +1,2041 @@
+@CHARSET "ISO-8859-1";
+/*Estilos dinamica*/
+#s4-workspace{
+background-color:#005764;
+	
+}
+
+/*Estilos que se sobreescriben del CORE SharePoint*/
+.ms-WPBody{
+ font-size: 12px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.ms-WPBody TD{
+ font-size: 12px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Fin estilos de CORE SharePoint*/
+
+
+/*Estilos para cabezote*/
+
+#cabezoteDinamica{
+	margin-left: 10px;
+}
+
+/*Estilos para boton Resultados en linea*/
+
+#contenedorBtnIngreso{
+float: right;
+padding-left:10px;
+}
+
+#botonResultados {
+
+	width: 290px;
+	height: 111px;
+	background-repeat: no-repeat;
+	margin-right: 30px;
+}
+
+.imgBtnResultados{
+margin-top:1px;
+z-index: 1;
+position:relative;
+float:right;
+
+}
+
+/*Boton ingreso*/
+
+#btnResultados{
+	width: 290px;
+	height: 111px;
+	background-repeat: no-repeat;
+	margin-right: 30px;
+}
+
+
+#btnIngreso{
+	width: 290px;
+	height: 111px;
+	background-repeat: no-repeat;
+	margin-right: 30px;
+}
+
+
+
+
+#ayuda {
+	float:left;
+	position:absolute;
+	z-index: 3;
+	margin-top: 40px;
+	margin-left: 15px;	}
+
+#resultadoExamen{
+	position:absolute;
+	z-index: 3;
+	float:right;
+	margin-top: 23px;
+	margin-left:  111px;
+	}
+	
+	
+#informacion{
+	float: left;
+	position: relative;
+	
+	}
+
+#imgInfo{
+	float:left;
+	position:relative;
+	z-index:2;
+	}
+
+#btnInfo{
+	float:left;
+	position:relative;
+	z-index:3;
+	margin-top: 50px;
+	margin-left: -54px;
+	}
+	
+#btnArticulos{
+	float:left;
+	position:relative;
+	font: 
+	}
+	
+/*Estilos para cabezotes articulos Home*/	
+	
+.cabezoteNoticia{
+margin-right: 25px;
+margin-left: 10px;
+    	}
+	
+	
+/*cabezote video*/
+
+.cabezoteVideo{
+
+margin-left:16px;
+
+	
+	}
+	
+.videoImagen{
+margin-left:8px;
+	}
+
+	
+/*Cabezote Acceso directo*/
+
+#accesosDirecto{
+float:right;
+margin-top:1px;
+position:relative;
+}
+
+	
+.cabeAccesoDirec{
+float:right;
+margin-left: -40px
+	
+}
+
+/*Estilos para tabla noticias Home*/
+
+.noticiasHome{
+
+padding-left: 10px;
+	
+}
+	
+
+
+/*Estilos para titulos azules*/
+.titulosAzules{
+	font: "Trebuchet MS";
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 13px;
+	font-weight:bold;
+	
+	}
+	
+/*estilo para Textos Articulos de home*/
+.textoArtHome{
+	color:#666666;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-left: 10px;
+	}
+	
+	
+/*Estilos para boton informacion home*/	
+#btnInfoHome{
+	height: 34px;
+	width: 114px;
+	float: left;
+	position: relative;
+	z-index:5;
+	margin-left: 1px;
+	margin-top: -20px;
+	}	
+	
+/*Estilos para menu Home*/	
+#mainmenu{
+	height:28px;
+	width: 960px;
+	background-image:url(../Home/BackgroundMenu.png);
+	margin-bottom:15px;
+	margin-top: -4px;
+	font: "Trebuchet MS";
+	font-size: 12px;
+	margin-left:10px;
+
+	
+	}
+
+#mainmenu #menuHorizontal{
+	float: left;
+    margin: -5px 0 0 20px;
+    width: 960px;
+    font: "Trebuchet MS";
+	font-size: 12px;
+	padding-top: 4px;
+
+}
+
+#mainmenu #menuHorizontal UL{
+  padding-top: 9px;
+    text-align: left;
+    font: "Trebuchet MS";
+	font-size: 12px;
+
+   }
+   
+#mainmenu #menuHorizontal UL LI A{
+	color: #FFFFFF;
+    display: inline;
+    font: "Trebuchet MS";
+    font-size: 12px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-decoration:none;
+    }
+    
+#mainmenu #menuHorizontal UL LI A:hover{
+	color: #cad200;
+    display: inline;
+    font: "Trebuchet MS";
+    font-size: 12px;
+    padding: 0 10px;
+    text-decoration: none;
+    }
+    
+
+#mainmenu #menuHorizontal UL LI A img{
+  margin-top: -7px;
+  float: left;
+  position:relative;
+  z-index: 9;
+    }
+
+/*Estilos para botones de ingreso y resultado de examenes*/
+#btnIngresoAyuda{
+float: right;
+margin-right:5px;
+}
+
+/*Estilos para Botones de acceso corporativo*/
+
+#btnCorporativoGeneral{
+margin-bottom:5px;
+margin-left:10px;
+margin-top:-10px;
+	
+	
+}
+
+#btnCorporativos #contenidoArticulo {
+margin-left: 1px;
+margin-bottom: 1px;
+margin-top: 1px;
+	
+}
+
+#leermasAlineacion{
+	 text-align:right;
+}
+
+/*Estilos para imagenes accesos directos -botones grises*/
+
+#imgAccesosDirectos{
+float:right;
+margin-right:30px;
+margin-left:-40px;
+}
+
+#imgAccesosDirectos #contenidoArticulo{
+margin-right: 4px;
+margin-bottom:5px;
+margin-right:8px;
+	
+}
+
+
+
+
+/*Estilos buscador*/
+
+#buscador {
+    background-image: url("../../../Home/backBuscador.png");
+    background-repeat:no-repeat;
+    float: right;
+    margin-left:360px;
+    margin-top:-45px;
+    padding: 5px 5px 5px;
+    text-align: right;
+    width: 277px;
+    height:39px;
+    position:absolute;
+    margin-top:119px;
+    margin-left:683px;
+}
+
+#buscador #txtBuscador {
+    background-image: url("../../../Home/backTextoBuscador.png");
+    background-repeat:no-repeat;
+    color: #666666;
+    font: "Trebuchet MS";
+    font-size: 12px;
+    padding-left: 0px;
+    margin-right: 0px;
+    width: 154px;
+    border: 0;
+    margin-top:10px;
+    height:21px;
+    padding-left:5px;
+    padding-top:5px;
+    
+}
+
+#buscador #btnBuscador {
+    background-image: url("../../../Home/buscadorBoton1.png");
+    background-repeat: no-repeat;
+    border: 0 none;
+    color: #186577;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    font-weight: bold;
+    height: 47px;
+    width: 72px;
+    margin-top:-5px;
+    margin-right:-5px;
+    float:right;
+    margin-left:10px;
+
+}
+
+#buscador .btnBuscador {
+    background-image: url("../../../../Home/buscadorBoton1.png");
+    background-repeat: no-repeat;
+    border: 0 none;
+    color: #186577;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    font-weight: bold;
+    height: 47px;
+    width: 72px;
+    margin-top:-5px;
+    margin-right:-5px;
+    float:right;
+    margin-left:10px;
+
+}
+
+
+
+
+/*pieHome*/
+
+#pieHome{
+margin-right: 10px;
+position: relative;
+float:left;
+margin-left:-9px;
+}
+
+#pieHomeContenido #contenidoArticulo{
+margin-right: 0px;
+}
+
+/*Estilos para imagenes accesos directos Páginas Internas -botones grises*/
+
+#AccesosDirectosInter{
+float:right;
+margin-top:30px;
+margin-left: -90px;
+}
+
+#AccesosDirectosInter #contenidoArticulo{
+margin-right: 4px;
+margin-bottom:5px;
+margin-right:8px;
+}
+
+
+/*Contenedor noticia Interna*/
+
+#noticiasInterna{
+float:left;
+}
+
+#noticiasInterna #contenidoArticulo{
+margin-top: 17px;
+}
+
+#noticiasInterna #vermasArticulo{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+#noticiasInterna #vermasArticulo A:hover{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+#noticiasInterna #vermasArticulo A:link{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+#noticiasInterna #vermasArticulo A:visited{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+
+
+
+/*Estilos para boton informacion home*/	
+#btnInfoHome{
+	height: 34px;
+	width: 114px;
+	float: left;
+	position: relative;
+	z-index:5;
+	margin-left: 1px;
+	margin-top: -20px;
+	
+	}	
+/*foooterinterno*/	
+
+#pieInterno{
+margin-right: 10px;
+position: absolute;
+float:left;
+margin-left:-28px;
+	}
+
+.backPie{
+	float: left;
+	z-index: 2;
+	position: absolute;
+	}
+
+#tablalinksPie{
+	float: left;
+	position: absolute;
+	z-index: 3;
+	margin-top: -8px;
+	color: #FFFFFF;
+    font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 8px !important;
+    width:662px;
+    margin-left: 300px;
+   
+	}
+
+#tablalinksPie .tablalinksPie{
+	 height: 218px;
+	    width:662px;
+}
+
+#tablalinksPie .tituloPie{
+	 color: #92AC19;
+     font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+     font-size: 8px;
+     font-weight:bold;
+	}
+	
+#tablalinksPie .imgLinksPieLineasAtencion{
+	 color: #d4da42;
+     font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+     font-size: 11px;
+	}
+	
+ #tablalinksPie ul.imgLinksPie{
+	font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	list-style-image:url(/internasInsumos/li.png);
+	height: 10px;
+	text-decoration: none;
+	font-size:8px;
+	
+	} 
+
+ #tablalinksPie ul.imgLinksPie a{
+	font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	list-style-image:url(/internasInsumos/li.png);
+	height: 10px;
+	text-decoration: none;
+
+	font-size: 8px !important;
+	
+	
+	} 
+
+
+
+#tablalinksPie li.imgLinksPie{
+	font: "Trebuchet MS";
+	font-size:8px;
+
+	text-decoration: none;
+	color:#ffffff;
+	
+	
+	}	
+	
+	
+
+ #tablalinksPie li.imgLinksPie a{
+	font: "Trebuchet MS";
+	font-size:8px;
+
+	text-decoration: none;
+	color:#ffffff ;
+	}
+	
+
+
+
+	
+#tablalinksPie	li.imgLinksPie a:link {
+	font: "Trebuchet MS";
+	font-size:8px;
+
+	text-decoration: none;
+	color:#ffffff ;
+		
+	}	
+
+	#tablalinksPie li.imgLinksPie a:visited{
+	font: "Trebuchet MS";
+	font-size:8px;
+
+	text-decoration: none;
+	color:#ffffff ;
+		
+	}		
+#tablalinksPie li.imgLinksPie A:active {
+	font: "Trebuchet MS";
+	font-size:8px;
+	text-decoration: none;
+	color:#ffffff ;
+		
+	}	
+	
+	
+
+	
+/*Estilos para Contenido Paginas Internas a dos columnas*/
+
+
+#textoArticulo{
+width: 650px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #666666;
+}
+
+
+#textoArticulos #contenidoArticulo {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #666666;
+padding-bottom: 35px;
+text-align:justify;
+width: 280px;
+margin-right: 10px;
+margin-left: 10px;
+border-bottom: #d4d1d1 solid 1px;
+
+}
+
+
+
+#textoArticulos #tituloArticulo{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom:10px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+	
+}
+
+#textoArticulos #vermasArticulo{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 25px;
+	margin-top: -20px;
+}
+
+#textoArticulos #vermasArticulo A:hover{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#094e5f;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 25px;
+	margin-top: -20px;
+}
+
+#textoArticulos #vermasArticulo A:link{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 25px;
+	margin-top: -20px;
+}
+
+#textoArticulos #vermasArticulo A:visited{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 25px;
+	margin-top: -20px;
+}
+
+/*texto articulos a una columna*/
+
+#textoArticuloInterno{
+width: 650px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #666666;
+}
+
+
+#textoArticuloInterno #contenidoArticulo {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #666666;
+padding-bottom: 35px;
+text-align:justify;
+
+
+}
+
+
+
+#textoArticuloInterno #tituloArticulo{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom:5px;
+
+	
+}
+
+#textoArticuloInterno #vermasArticulo{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+#textoArticuloInterno #vermasArticulo A:hover{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+#textoArticuloInterno #vermasArticulo A:link{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+
+#textoArticuloInterno #vermasArticulo A:visited{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+/*A tabla cuidados después de examen*/
+
+ .ms-WPBody .preparacion A:hover{
+	color:#1F7185;
+}
+
+ .ms-WPBody .preparacion A:link{
+	color:#1F7185;
+}
+
+.ms-WPBody .preparacion A:visited{
+	color:#1F7185;
+}
+
+
+.ms-WPBody .preparacion A:active{
+	color:#1F7185;
+}
+
+
+/*****/
+
+/**/
+
+/*Boton enviar- formulario de contacto*/
+
+#botonenviar{
+     font: "Trebuchet MS";
+     font-size: 14px;
+     font-weight:bold;
+
+	
+}
+
+/*Estilos para label formulario contactenos*/
+
+.formulario {
+font-family:  Arial, Helvet ica, sans-serif;
+font-size: 12px;
+}
+
+.ms-formlabel {
+font-family:  Arial, Helvet ica, sans-serif;
+font-size: 12px;
+}
+
+.ms-formbody{
+text-align: left;
+}
+
+
+/*estilos para página proveedores*/
+
+
+#inicioSesion{
+	background-color: #e8e8e8;
+	width: 600px;
+	height: 200px;
+	z-index:1;
+	float: left;
+	position: relative;
+	}
+	
+.texProveedor{
+	text-align: center;
+	}
+
+
+	
+#RedesSociales	{
+	width: 50px;
+	float:right;
+	z-index:6;
+	position:absolute;
+	margin-left:455px; 
+	margin-top: 25px;
+	
+}
+
+/*Estilos para cuidado de examenes - tabla*/
+#contenedorExamenes{
+	float:left;
+	position:relative;
+	width: 655px;
+	height: 14000px;
+	}
+
+
+
+#examenPreparacion {
+	float:left;
+	position:absolute;
+	
+}
+
+
+#examenPreparacion #tablaExamenPrep {
+float:left;
+z-index:3;
+position:absolute;
+margin-top: -1px;
+font-size: 12px;
+font-family: "Trebuchet MS";
+color: #666666;
+margin-left: 40px;
+text-decoration: none;
+	
+	}
+	
+#tablaExamenPrep a{
+	
+ font-size: 12px;
+ font-family: "Trebuchet MS";
+ color: #666666;
+ text-decoration: none;
+	
+	}
+	
+	
+#examenPreparacion #tablaExamenPrep2{
+float:right;
+z-index:3;
+position:absolute;
+margin-top: -1px;
+font-size: 12px;
+font-family: "Trebuchet MS";
+color: #666666;
+margin-left: 370px;
+	
+	}	
+
+#tablaExamenPrep2 a{
+	
+font-size: 12px;
+font-family: "Trebuchet MS";
+color: #666666;
+text-decoration: none;
+	
+	}
+
+
+
+#textoResultadoExam{
+	
+	position:absolute;
+	margin-top: 1270px;
+	width:650px;
+	}
+	
+
+
+/* Calendario */
+
+.tablaCalendario{
+margin-bottom: 30px;
+margin-left: 20px;
+margin-top: 5px;
+}
+
+
+.Calendario{
+width: 300px;
+	border:1px #000000 solid;
+	margin:0px;
+	padding:0px;
+	margin-left: 10px;
+	margin-bottom: 10px;	
+}
+
+table .Calendario{
+	margin:0px;
+	padding:0px;
+}
+
+td .Calendario, .Calendario td{
+	margin:0px !important;
+	padding:0px !important;
+	
+}
+
+/* Tabla con mes y navegacion */
+.Calendario .Calendario table, table .Calendario .Calendario{
+	margin:0px;
+	padding:0px;
+	color:#FFFFFF;
+	border-style:none;
+	}
+
+td .Calendario .Calendario, .Calendario .Calendario td{
+	margin:0px !important;
+	padding:3px !important;
+	background-color:#186577;
+}
+
+/* Navegacion entre meses */
+a .Calendario .Calendario, .Calendario .Calendario a{
+	color:#FFFFFF !important;
+	text-decoration:none !important;
+}
+
+a:hover .Calendario .Calendario, .Calendario .Calendario a:hover{
+	text-decoration:underline !important;
+}
+
+/* Nombre de los dias */
+th .Calendario, .Calendario th{
+	background-color:#FFFFFF;				
+}
+
+/* Dia de otro mes */
+.otroMes, td .otroMes, .otroMes td{
+	background-color:#E8E8E8 !important;
+	padding: 3px !important;
+	color:#CCCCCC !important;
+}
+
+a .otroMes, .otroMes a{
+	color:#999999 !important;
+}
+
+/* Dia con evento */
+.evento, td .evento, .evento td{
+	background-color:#E0EE93 !important;
+	padding: 3px !important;
+}
+
+/* Dia con evento para popup*/
+.EventoPopup, td .EventoPopup, .EventoPopup td{
+	background-color:#E0EE93 !important;
+	padding: 3px !important;
+	cursor:hand;
+}
+
+/* Dia de Semana */
+.diaSemana, td .diaSemana, .diaSemana td{
+	background-color:#FFFFFF !important;
+	padding: 3px !important;
+}
+
+/* Dia de hoy */
+a .hoy, .hoy a{
+	color:#186577 !important;
+	font-weight:bold !important;
+}
+
+/* Fin de Semana */
+.finSemana a{
+	color:#FF0000 !important;
+}
+
+/* Detalles de Evento */
+
+table .detalle_evento, .detalle_evento table{
+	border: 1px #000000 solid !important;
+	font-size:10px !important;
+	width:100% !important;
+}
+
+td .detalle_evento, .detalle_evento td{
+	border-bottom: 1px #CCCCCC solid !important;
+	font-size:12px !important;
+	color: #5A5A5A !important;
+	padding: 3px !important;
+	width:249px !important;
+}
+
+.detalle_evento .titulo{
+	color:#FFFFFF !important;
+	background-color:#186577 !important;
+	font-size:12px !important;
+	font-weight:bold!important;
+	border-style:none !important;
+	width: 120px !important;
+}
+
+
+div .blockUI, .blockUI div{
+	width:auto !important;
+	margin:0px auto !important;
+}
+
+.divEventos{
+	overflow:auto;
+	/*height:400px;*/
+	/*position:fixed;*/
+	width:750px;
+	/*left: -23px;*/
+	position:relative;
+	/*right: 200px;	*/
+	background-color:#FFFFFF !important;
+	border:3px solid #AAAAAA !important;
+}
+
+
+.blockMsg, .blockPage{
+	background-color: transparent !important;
+	border-style:none !important;
+	width:750px !important;
+}
+
+#agenda{
+clear:both;
+float: right;
+width: 250px;
+position:relative;
+margin-left: 50px;
+	
+}	
+
+.ver_todo
+{width: 200px;
+margin-left: 112px;
+margin-top: -30px;
+margin-bottom: 38px;
+color:#1F7185;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 16px;
+	}
+
+/*Estilos para texto diagramado a 2 columnas*/
+
+
+
+#columnaTexto{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #666666;
+margin-left: 60px;
+
+	
+}
+
+
+#columnaTexto #contenidoArticulo {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #666666;
+padding-bottom: 35px;
+margin-right: 10px;
+margin-left: 10px;
+border-bottom: #d4d1d1 solid 1px;
+
+
+
+	
+}
+
+
+
+#columnaTexto #tituloArticulo{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom:10px;
+	margin-left: 10px;
+	margin-right:10px;
+	
+	}
+
+#columnaTexto #vermasArticulo{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+	margin-top: -20px;}
+
+#columnaTexto #vermasArticulo A:hover{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+	margin-top: -20px;}
+
+#columnaTexto #vermasArticulo A:link{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+	margin-top: -20px;
+}
+
+#columnaTexto #vermasArticulo A:visited{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 30px;
+	margin-top: -20px;
+}
+
+/*Estilos boletin publicaciones cientificas*/
+
+#boletinCientifico{
+
+background-color: #00525e;
+height: 103px;
+width: 275px;
+color: #FFFFFF;
+text-align:center;
+font-family: "Trebuchet MS";
+font-size: 10px;
+margin-left:10px;
+margin-bottom: 10px;
+
+	
+}
+
+
+#boletinCientifico #divBoletinTitulo{
+
+color: #FFFFFF;
+text-align:center;
+font-family: "Trebuchet MS";
+font-size: 12px;
+font-weight:bold;
+
+}
+
+#boletinCientifico #divBoletinTexto{
+color: #FFFFFF;
+text-align:center;
+font-family: "Trebuchet MS";
+font-weight:bold;
+width: 250px;
+font-size: 11px;
+}
+
+
+
+/*Botones para convenios*/
+#botonConvenio {
+margin-left: -53px;
+	
+}
+
+ 
+
+
+
+
+/*Estilos para menu pie*/	
+#menuLinksPie{
+	height:114px;
+	width: 1000px;
+	background-image:url(../Home/pieLinks.png);
+	font: "Trebuchet MS";
+	font-size: 12px;
+	margin-left:-9px;
+
+	
+	}
+
+#menuLinksPie #menuHorizontal{
+	float: left;
+       width: 1000px;
+    font: "Trebuchet MS";
+	font-size: 12px;
+	padding-top: 28px;
+	margin-left: 30px;
+
+}
+
+#menuLinksPie #menuHorizontal UL{
+     text-align: left;
+    font: "Trebuchet MS";
+	font-size: 12px;
+	margin-left: 10px;
+	margin-left: 10px;
+
+   }
+   
+#menuLinksPie #menuHorizontal UL LI A{
+	color: #FFFFFF;
+    display: inline;
+    font: "Trebuchet MS";
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 27px;
+    }
+
+#menuLinksPie #menuHorizontal UL LI A:hover{
+	color: #cad200;
+    display: inline;
+    font: "Trebuchet MS";
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 27px;
+    }
+
+#menuLinksPie #menuHorizontal UL LI A img{
+    float: left;
+  position:relative;
+  z-index: 9;
+  margin-right: -2px;
+    }
+
+/*Estilos para pruebas dinamica*/
+
+
+/*Estilos para modal*/
+
+#divSelectBuscador{
+	/*background-image: url('../imagenes Pruebas Dinamica/backModal.png');*/
+	background-repeat:no-repeat;
+	width: 176px;
+	height:38px;
+	float:left;
+	position:absolute;	
+}
+
+.ddlFiltro{
+margin-top: 11px;
+margin-left: 17px;
+}
+
+/*estilos para buscador de pruebas*/
+
+#tablaBuscadorPruebas{
+	float:left;
+	position:absolute;
+	margin-top: 20px;
+	margin-left: 34px;
+	background-image: url('../imagenes Pruebas Dinamica/backBuscadorPreparacion.png');
+	height:50px;
+	background-repeat:no-repeat;
+	width: 886px;
+}
+
+#divbotonbuscador{
+	float:right;
+	position:relative;
+	margin-top: -39px;
+}
+
+.ddlFiltroR{
+	position:relative;
+	float:right;
+	margin-right: -176px;
+	margin-top: 12px;
+}
+
+#divBuscador {
+	width:480px;
+	padding-left: 400px;
+	float:left;
+	position:absolute;
+	margin-top:38px;
+	}
+
+
+
+.ms-ButtonHeightWidth{
+
+height: 38px;
+width: 139px;
+background-repeat: no-repeat;
+}
+
+
+#divautocompletarfiltro{
+	background-image: url('../imagenes Pruebas Dinamica/backBuscadorPreparacion.png');
+	height:38px;
+	width:329px;
+	background-repeat: no-repeat;
+	float:left;
+	position: relative;
+	margin-top: 1px;
+
+}
+
+.autocompletarfiltro{
+
+border: solid 1px #abc1fa;
+height: 19px;
+width: 302px;
+margin-top: -30px;
+margin-right: 30px;
+float:left;
+}
+
+.rgDataDiv{
+margin-top: 130px;
+}
+
+/*Estilos para grilla pruebas dinámica Header*/
+
+.rgHeader{
+font: "Trebuchet MS";
+	text-decoration: none;
+	color:#1F7185  !important;
+	font-size: 13px  !important;
+	font-weight:bold  !important;
+	text-align:center !important;
+}
+
+.RadGrid_Default .rgRow A{
+font: "Trebuchet MS"!important;
+color: #666666!important;
+
+}
+
+.RadGrid_Default .rgAltRow A{
+font: "Trebuchet MS"!important;
+color: #666666!important;
+
+}
+
+/*Fin*/
+
+#tablaPruebasDinamica{
+	margin-top: 55px;
+	width: 953px;
+	margin-left: 10px;
+}
+
+
+#tablaPruebasDinamica .ms-vh{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #164f5a;
+	font-weight: bold;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+
+#tablaPruebasDinamica .ms-vb{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #023399;
+	font-weight: bold;
+	font-size: 12px;
+		
+}
+
+#tablaPruebasDinamica .ms-vb a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #020065;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration:none;
+	
+}
+
+#tablaPruebasDinamica .ms-alternating{
+	background-color: #f9f9f9;
+}
+
+/*Estilos para buscador preparación para antes del examen*/
+
+.divBuscadorPreparaciones{
+	width: 480px;
+	padding-left: 100px !important;
+	position:relative;
+}
+
+.divBuscadorPreparaciones .autocompletarfiltro{
+width:302px;
+height:19px;
+margin-top: 9px;
+border: #abc1fa 1px solid;
+float:left;
+margin-left: 15px;
+	
+}
+
+/*fin de estilos preparación examen */
+
+/*estilos para tabla redes sociales*/
+.tablaOpcionesPruebas{
+margin-left: 10px;
+}
+
+/*Estilos para redes sociales pagina pruebas dinamica*/
+
+#agrupadorpruebas{
+	float:left;
+	position:relative;
+	margin-top:30px;
+	margin-left:15px;
+}
+
+#agrupadorpruebas #labelFacebook{
+margin-left: 25px;
+float:left;
+position:relative;
+margin-top: 20px;
+margin-right: 10px;
+	
+}
+
+#agrupadorpruebas #labelTwitter{
+margin-left: -5px;
+float:left;
+position:relative;
+margin-top: 20px;
+margin-right: 10px;
+	
+}
+
+
+#agrupadorpruebas .divExportarExcel{
+position: absolute;
+float:right;
+z-index:8;
+margin-left: 463px;
+margin-top: 20px;
+	
+}
+
+#agrupadorpruebas .divReturn{
+float:right;
+position:absolute;
+z-index: 9;
+margin-left: 619px;
+margin-top: 20px;
+}
+
+/*pruebas mapa iconos*/
+#agrupadorpruebasmapa{
+
+	float:left;
+	position:relative;
+	margin-bottom: 20px;
+	margin-left: 5px;
+}
+
+#agrupadorpruebasmapa #labelFacebook{
+margin-left: 110px;
+float:left;
+margin-top: 80px;
+margin-right: 10px;
+	
+}
+
+#agrupadorpruebasmapa #labelTwitter{
+	margin-left: 35px;
+	float:left;
+	position:absolute;
+	margin-top: 80px;
+	margin-right: 10px;
+
+	
+}
+
+
+#agrupadorpruebasmapa .divExportarExcel{
+position: absolute;
+float:right;
+z-index:8;
+margin-left: 500px;
+margin-top: 75px;
+	
+}
+
+#agrupadorpruebasmapa .divExportarPdf{
+position: absolute;
+float:right;
+z-index:1;
+margin-left: 550px;
+margin-top: 15px;
+}
+
+
+#agrupadorpruebasmapa .divReturn{
+float:right;
+position:absolute;
+z-index: 1;
+margin-left: 700px;
+margin-top: 75px;
+}
+
+#agrupadorpruebasmapa #nombredepartamento{
+	float:left;
+	margin-top: 83px;
+	z-index:999;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#28778a;
+	font-size: 15px;
+	margin-left: 60px;
+	font-weight: bold;
+}
+
+#agrupadorpruebasmapa .erropruebasdinamica{
+	float:left;
+	z-index:999;
+	font-family:Arial, Helvetica, sans-serif;
+	color:red;
+	font-size: 15px;
+	margin-top: 130px;
+	/*margin-left: -175px;*/
+}
+
+#tituloMapa{
+	z-index:999;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#28778a;
+	font-size: 15px;
+	margin-top: 20px;
+	padding-bottom: 25px;
+	font-weight:bold;
+	}
+	
+#textoMapa{
+	z-index:999;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-size: 13px;
+	margin-top: 20px;
+	padding-bottom: 25px;
+	text-align:justify;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-weight: normal;
+	}
+	
+#mapaColombia{
+	margin-top: 65px;
+	border:none;
+}
+
+.rgMasterTable{
+	margin-top:10px;
+	margin-left:35px;
+	width:880px !important;
+}
+
+/***************************************/
+
+#tablaDetallePruebasDinamicaID0EAAA{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#595b5a;
+	width: 880px;
+	margin-left: 40px;
+	border-top: 1px solid #d8d8d8;
+	margin-top:10px;
+	margin-bottom: 10px;
+	border-top: 1px solid #d8d8d8;
+}
+
+#tablaDetallePruebasDinamicaID0EAAA td{
+		border-bottom: 1px solid #d8d8d8;
+}
+
+#tablaDetallePruebasDinamicaID0EAAA .ms-vb{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+	color:#595b5a;
+	border-bottom: 1px solid #d8d8d8;
+	padding-left: 5px;
+}
+
+/*
+.ms-vb{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+	color:#595b5a;
+	border-bottom: 1px solid #d8d8d8;
+}
+*/
+
+#tablaDetallePruebasDinamicaID0EAAA .ms-vb2{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+	color:#595b5a;
+	background-color:#ebf3fe;
+	border-bottom: 1px solid #d8d8d8;
+	padding-left: 10px;
+}
+/*
+.ms-vb2{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+	color:#595b5a;
+	background-color:#ebf3fe;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+*/
+
+#tablaDetallePruebasDinamicaID0E0O1C0AA div{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+	color:#595b5a;
+}
+
+.divContenidoPreparaciones{
+margin-top: 80px;	
+}
+
+.divContenidoPreparaciones .celdaPreparaciones{
+	background-image: url('../Imagenes Preparacion Examenes/separador.png');
+	width: 312px;
+	height: 43px;
+	background-repeat:no-repeat;
+	margin-top: 40px;
+	position: relative;
+	background-position: bottom;
+	margin-right: 10px;
+}
+
+.textoCeldaPreparaciones{
+	margin-top: -45px;
+	width: 246px;
+	margin-left: 10px;
+}
+
+.imagenCeldaPreparaciones{
+margin-top: -34px;
+background-position:right;
+float:left;
+position: relative;
+z-index:9;
+margin-left: -48px;
+}
+
+/*estilos para emergente pruebas dinámica*/
+
+.ExternalClass17C0EF22AA1B4D87AE63C92DA79EED81{
+	text-align:justify;
+	font-family: Arial, Helvetica, sans-serif;
+	font-family:
+}
+
+#cabezaPreparacion{
+	margin-top: -35px;
+	margin-bottom: 10px;
+}
+
+/*estilos footer*/
+#FooterInterno{
+	font-size: 10px;
+}
+
+.ms-WPBody TD .imgLinksPie{
+font-size: 10px;	
+}
+
+/*estilos para formulario*/
+
+.ms-WPBody TD .formulario {
+font-size: 10px;
+text-align:justify;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.ms-WPBody H3 .formulario {
+font-size: 12px;
+font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+.ms-WPBody H3  {
+font-size: 12px;
+font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+.ms-formlabel H3.ms-standardheader{
+
+font-size: 12px;
+font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+.ms-formlabel{
+	text-align:left;
+	color:#595b5a;
+	border-bottom: 1px solid #d8d8d8;
+	padding-left: 5px;
+}
+
+.ms-standardheader{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.formulario .ms-formbody{
+  font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+	color:#595b5a;
+	border-bottom: 1px solid #d8d8d8;
+	padding-left: 5px;
+}
+
+.ms-long ms-spellcheck-true {
+border: 1px solid #00525E;
+}
+
+/*Texto artículo deberes y derechos pacientes*/
+
+#AccesosDirectosPacientes{
+	float:right;
+margin-top:10px;
+margin-right: 10px;
+}
+
+#textoArticulosDeberes{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #666666;
+width: 350px;
+margin-left: 10px;
+}
+
+#textoArticulosDeberes #contenidoArticulo {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #666666;
+padding-bottom: 35px;
+margin-right: 10px;
+margin-left: 10px;
+text-align:justify;
+}
+
+#textoArticulosDeberes  #tituloArticulo{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 16px;
+    margin-top: 20px;
+	margin-bottom:10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	}
+
+#textoArticulosDeberes  #vermasArticulo{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+float:right;
+margin-bottom: 45px;
+margin-right: 21px;
+margin-top: -10px;
+}
+
+#textoArticulosDeberes  #vermasArticulo A:hover{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+float:right;
+}
+
+#textoArticulosDeberes  #vermasArticulo A:link{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+	float:right;
+}
+
+#textoArticulosDeberes  #vermasArticulo A:visited{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+float:right;
+}
+
+/**/
+
+/*estilos para formulario contacto*/
+
+.tableContact{
+	width: 100%;
+	border-top: 1px solid #d8d8d8;
+	padding: 0px;
+}
+
+.tableContact TD{
+padding: 0px;
+}
+
+.ms-WPBody TD .formulario {
+font-size: 10px;
+text-align:justify;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.ms-WPBody H3 .formulario {
+font-size: 12px;
+font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+.ms-WPBody H3  {
+font-size: 12px;
+font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+.ms-formlabel H3.ms-standardheader{
+font-size: 12px;
+font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+.ms-formlabel{
+	text-align:left;
+	color:#595b5a;
+	padding-left: 5px;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.ms-formbody{
+border-bottom: 1px solid #d8d8d8;
+background-color: #EBF3FE;
+}
+
+.ms-standardheader{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.formulario .ms-formbody{
+  font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+	color:#595b5a;
+	padding-left: 5px;
+}
+
+ 
+.ms-long {
+	border: 1px solid #00525E;
+	width: 300px;
+	margin-bottom: 5px;    
+	margin-top: 5px;
+} 
+
+.ms-RadioText{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+ .enviar {
+	color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #041C28;
+    }
+
+ .enviar a{
+	color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #041C28;
+    }
+
+
+/*Boton enviar- formulario de contacto*/
+
+#botonenviar{
+    border-style: none;
+    height: 27px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*estilos para tabla de encuestas*/
+
+.encuesta{
+	margin-left: 18px;
+}
+
+.resultadosEncuesta{
+	position:rrelative;
+	margin-left: 18px;
+}
+
+/*estilos para buscador glosario*/
+
+.glossary-container #divautocompletarfiltro{
+	background-image: url('../imagenes Pruebas Dinamica/backBuscadorPreparacion.png');
+	height:38px;
+	width:329px;
+	background-repeat: no-repeat;
+	float:left;
+	position: relative;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.glossary-container #divautocompletarfiltro #textbuscador{
+
+border: solid 1px #abc1fa;
+height: 19px;
+width: 302px;
+margin-top: 8px;
+margin-left: 10px;
+}
+
+.glossary-container .divBuscador #SearchButton{
+
+background-image: url('../imagenes%20Pruebas%20Dinamica/btn_lupa.png');
+height: 38px;
+width: 58px;
+margin-top: 19px;
+}
+
+#menuBotonesDerecha{
+	margin-left:5px;
+}
+
+/*Estilos  para ventana emergente de pruebas dinámica*/
+
+#divPrint{
+	margin-top: 0px;
+	margin-left: 20px;
+	position:absolute;
+}
+
+#btnprintpruebas{
+	margin-top:-3px;
+	padding-top: 0px;
+}
+
+.emailhelp{
+	margin-left: 121px;
+	color: #1f7185;
+	font-size: 14px;
+}
+
+#mailInfo{
+	margin-left: 20px;
+	color: #1f7185;
+	font-size: 12px;
+}
+
+#idMessage{
+	margin-left: 36px;
+	color: #1f7185;
+	font-size: 15px;
+	text-align: center;
+}
+
+.FBConnectButton FBConnectButton_Small{
+	margin-top: -20px;
+}
+
+#facediv{
+	margin-top: -20px;
+	position: relative;
+}
+
+.btnEmail{
+	position:relative;
+	float:left;
+	margin-top: 5px;
+	margin-left: 165px;
+}
+
+.textemails{
+position:relative;
+float:left;
+width: 428px;
+height: 65px;
+}
+
+.tituloArticulo a:link{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 16px;
+	font-weight:normal;
+    margin-top: 20px;
+	margin-bottom:10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	}
+
+.vermasArticulo a:link{
+font-family:  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color:#1F7185;
+	font-size: 12px;
+	font-weight: bold;
+float:right;
+margin-bottom: 45px;
+margin-right: 21px;
+margin-top: -10px;
+}
+
+/*fin emergente pruebas*/

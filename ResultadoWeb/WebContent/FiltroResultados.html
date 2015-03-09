@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" CONTENT="no-cache">
+
+<link href="css/jquery-ui-1.11.3.custom/jquery-ui.theme.css" rel="stylesheet"/>
+<link href="css/resultados.css" rel="stylesheet"/>
+
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.js"></script>
+<script src="js/consultaResultados.js"></script>
+
+<script>
+  $(function() {
+    $("#botonBuscar").button();
+    $("#botonBuscar").css({ width: '100px', 'padding-top': '6px', 'padding-bottom': '6px' });
+    $("#botonBuscar").click(function()
+	  {		  
+		  return buscarResultados();
+	  });  
+    
+    $("#pdf_div").css("overflow", "auto");
+    $("#pdf_div").css("position", "absolute");
+    $("#pdf_div").css("top", ($("#panel1_div").height() + 10) + "px");
+    $("#pdf_div").css("bottom", "0px");
+    $("#pdf_div").css("left", "0px");
+    $("#pdf_div").css("width", "100%");     
+    
+    $(window).resize(function() {    	
+        $("#pdf_div").css("top", ($("#panel1_div").height() + 10) +"px");
+        $("#pdf_div").css("bottom", "0px");
+        $("#pdf_div").css("left", "0px");        
+        $("#pdf_div").css("width", "100%");       
+    });
+  });
+  
+  
+</script>
+
+</head>
+<body>
+
+<div style="height: 100%;">
+	<div id="panel1_div" class="panel1">
+	  <div class="panel1_titulo">
+	    Paciente
+	  </div>
+	  <div class="panel1_contenido">
+	  	<form id="formulario" name="formulario">
+	   	<table cellpadding="5px" cellspacing="5px">
+	    	<tr>
+	    		<td class="campo_label">Estado:</td>
+	    		<td class="campo_control">
+					<select>
+					  <option value="validado">Validado</option>
+					  <option value="impreso">Impreso</option>	 
+					</select> 
+				</td>
+	    		
+	    		<td class="campo_label">Remitido:</td>
+	    		<td class="campo_control"><select>
+	    				<option value="no">No</option>
+					  	<option value="si">Si</option>				  	 
+					</select> 
+				</td>
+				
+				<td class="campo_label">Código del servicio:</td>
+	    		<td class="campo_control"><input type="text">
+				</td>
+	    	</tr>  
+	    	<tr>
+	    		<td class="campo_label">Código del la institución:</td>
+	    		<td class="campo_control"><input type="text">
+				</td>
+				<td class="campo_label">Identificación del paciente:</td>
+	    		<td class="campo_control"><input type="text" id="identificacion" name="identificacion">
+				</td>
+				<td class="campo_label">ID usuario que valida:</td>
+	    		<td class="campo_control"><input type="text">
+				</td>
+	    	</tr>  	
+	    	<tr>
+	    		<td class="campo_label">Número de paciente:</td>
+	    		<td class="campo_control"><input type="text">
+				</td>
+				<td class="campo_label">Fecha de servicio:</td>
+	    		<td class="campo_control"><input type="text">
+				</td>
+				<td class="campo_label"></td>
+	    		<td class="campo_control">
+				</td>
+	    	</tr>   	
+	    </table>
+	    </form>
+	    <table cellpadding="5px" cellspacing="5px" width="100%">
+	    	<tr align="center">
+	    		<td><input id="botonBuscar" type="button" value="Buscar"> </td>
+	    	</tr>
+	    </table>
+	  </div>
+	</div>
+	
+	<div id="pdf_div">
+		<object id="pdf_view" width="100%" height="100%"></object>    
+	</div>
+</div>
+
+</body>
+</html>

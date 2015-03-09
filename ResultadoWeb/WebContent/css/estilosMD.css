@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+.titulo{  	
+  	font-family: verdana,arial,sans-serif;
+	font-size:18px;
+	font-weight:bold;	
+	color: #FFFFFF;	
+}
+
+.fondob1{ 		
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+  	background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+}
+
+.fondob2{  	
+  	background-color: #F3F3F3;	
+}
+
+.menu{  	
+  	font-family: verdana,arial,sans-serif;
+	font-size:14px;
+	font-weight:bold;	
+	color: #000000;	
+}
+
+.tdTitulo
+{
+	font-family: verdana,arial,sans-serif;
+	font-size: 14px;
+	font-weight: bold;	
+	color: #000000;	
+	padding: 10px;
+}
+
+.error
+{
+	color: #FF0000;
+}
+

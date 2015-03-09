@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>MensajeriaDinamica</display-name>  
+  <jsp-config>
+    <jsp-property-group>
+      <display-name>Usar JSTL 1.0</display-name>
+      <url-pattern>*.jsp</url-pattern>
+      <el-ignored>true</el-ignored>
+    </jsp-property-group>
+  </jsp-config>
+  
+  <servlet>
+    <servlet-name>ServiciosREST</servlet-name>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+
+    <!-- Register JAX-RS Application, if needed. -->
+    <init-param>
+        <param-name>javax.ws.rs.Application</param-name>
+        <param-value>dinamica.mensajeriadinamica.controlador.rest.Aplicacion</param-value>
+    </init-param>
+    
+    <!-- Register resources and providers under my.package. -->
+    <init-param>
+        <param-name>jersey.config.server.provider.packages</param-name>
+        <param-value>dinamica.mensajeriadinamica.controlador.rest</param-value>
+    </init-param>
+
+    <load-on-startup>1</load-on-startup>  
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServiciosREST</servlet-name>
+    <url-pattern>/rest/*</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

@@ -1,0 +1,26 @@
+div.ui-datepicker{
+ font-size:12px;
+}
+
+div.gridbox_dhx_skyblue table.hdr td {
+    font-size: 20px;
+}
+
+.label
+{
+	font-family: verdana,arial,sans-serif;
+	font-size: 12px;	
+}
+
+.componente
+{
+	font-family: verdana,arial,sans-serif;
+	font-size: 12px;	
+}
+
+.componenteMediano
+{
+	font-family: verdana,arial,sans-serif;
+	font-size: 12px;	
+	width: 50px;
+}

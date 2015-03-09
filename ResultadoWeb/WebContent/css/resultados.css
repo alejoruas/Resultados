@@ -1,0 +1,65 @@
+html, body
+{
+	height: 100%;
+}
+
+.panel1
+{	
+	border: 1px solid;
+	border-color: #AEAEAE;	
+	border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	width: 100%;   
+}
+
+.panel1_titulo
+{	
+	border-color: #AEAEAE;
+	background-color: #C7CF00;	
+	border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	display: block; cursor: pointer; position: relative; padding: .5em .5em .5em .5em; zoom: 1;		
+	font-family: "Verdana";
+	font-size: 14px;
+	font-weight: bold;	
+		
+	background: -moz-linear-gradient(top,  #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6f0a3), color-stop(50%,#d2e638), color-stop(51%,#c3d825), color-stop(100%,#dbf043)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+	 
+}
+
+.panel1_contenido
+{
+	background-color: #F4F5F5;
+	padding: .5em .5em .5em .5em;
+	font-family: "Verdana";
+	font-size: 14px;
+}
+
+.campo_label
+{	
+	width: 200px;
+	text-align: right;
+}
+
+.campo_control
+{
+	width: 120px;
+	text-align: left;
+	padding-right: 30px;
+}
+
+.tabla_formulario
+{
+	cellpadding: 5px;
+	cellspacing: 5px;
+}
