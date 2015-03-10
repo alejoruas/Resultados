@@ -34,11 +34,6 @@ public class Exportador {
 			ResultadoLaboratorioDAOSimulador dao = new ResultadoLaboratorioDAOSimulador();
 			ResultadoLabDTO resultado = dao.extraerResultadosLab("Medellin", "2800", identificacion).get(0);
 			
-			BufferedImage imBuff = ImageIO.read(getClass().getClassLoader().getResourceAsStream("Fondo1.jpg"));
-			
-			resultado.setFondo1(encodeToString(imBuff, "jpeg"));
-			//System.out.println(resultado.getFondo1());
-			
 			xml = resultado.convertirA_XML();
 			
 			StringWriter writer = new StringWriter();
@@ -47,27 +42,16 @@ public class Exportador {
 			StreamSource plantilla = new StreamSource(getClass().getClassLoader().getResourceAsStream("plantilla.xsl"));			
 			transformer = tFactory.newTransformer(plantilla);		
 			
-			StreamSource datos = new StreamSource(new StringReader(xml));
-			
-			transformer.setParameter("fondo1", resultado.getFondo1());
-			//transformer.setParameter("fondo1", "#00FF00");
-			System.out.println(transformer.toString());
-			//transformer.setOutputProperty("fondo1", "325235235");
-			//transformer.set("fondo1", "4545454");
-			transformer.transform(datos, result);
-			
-			
-			
-			//System.out.println(writer.toString());
+			StreamSource datos = new StreamSource(new StringReader(xml));	
+			transformer.transform(datos, result);		
+		
 			String texto = writer.toString();
-			//texto = StringEscapeUtils.unescapeHtml(texto);
 			texto = StringEscapeUtils.unescapeHtml3(texto);
-			System.out.println(texto);
-			    
+			 
 	        ITextRenderer renderer = new ITextRenderer();
+	        renderer.getSharedContext().setReplacedElementFactory(new ProfileImageReplacedElementFactory(renderer.getSharedContext().getReplacedElementFactory()));
 	        renderer.setDocumentFromString(texto);
 	        
-	        //renderer.setDocument(Documen, url)
 	        renderer.layout();
 	        renderer.createPDF(os);	 
 	        renderer.finishPDF();
@@ -101,4 +85,7 @@ public class Exportador {
         }
         return imageString;
     }
+    
+    
+    
 }

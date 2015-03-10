@@ -1,6 +1,6 @@
 package dinamica.resultadoslab.dto;
 
-public class ItemResultadoLab {
+public class ItemResultadoLabDTO {
 	private String item;
 	private String resultado1;
 	private String resultado2;

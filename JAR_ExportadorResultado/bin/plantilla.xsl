@@ -1,6 +1,5 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml" indent="yes"/>
-<xsl:param name="fondo1" select="'#00FFFF'"/>
 <xsl:template match="/">
   <html> 
   <head>
@@ -21,7 +20,7 @@
    	}
    	.celda
    	{
-   		border-bottom: dotted #C5C5C5;
+   		border-bottom: dotted #757575;
    	}
    	.celdaTitulo
    	{   
@@ -70,13 +69,10 @@
     </table>
     <table width="100%">
     	<tr>
-    		<td>       		
-    					
-    			<img src="Fondo1.jpg" width="30px" height="30px"/>
-    			
+    		<td>   			
     			<table width="50%">
     				<tr width="100%">
-    				<td border="1" bgcolor="#00FF00" width="33%">500</td>
+    				<td border="1" width="33%"><div class="profile_picture" style="display:block;width:100px;height:30px;">400</div></td>
     				<td border="1" bgcolor="#00FF00" width="34%">200</td>
     				<td border="1" bgcolor="#0000FF" width="33%">400</td>
     				</tr>
