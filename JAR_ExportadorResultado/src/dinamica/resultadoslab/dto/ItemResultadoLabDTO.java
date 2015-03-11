@@ -6,6 +6,21 @@ public class ItemResultadoLabDTO {
 	private String resultado2;
 	private String valoresRef;
 	private String unidad;
+	private String limiteSuperior;
+	private String limiteInferior;
+		
+	public String getLimiteSuperior() {
+		return limiteSuperior;
+	}
+	public void setLimiteSuperior(String limiteSuperior) {
+		this.limiteSuperior = limiteSuperior;
+	}
+	public String getLimiteInferior() {
+		return limiteInferior;
+	}
+	public void setLimiteInferior(String limiteInferior) {
+		this.limiteInferior = limiteInferior;
+	}
 	public String getItem() {
 		return item;
 	}

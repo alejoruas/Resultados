@@ -69,7 +69,7 @@
     </table>
     <table width="100%">
     	<tr>
-    		<td>   			
+    		<td>
     			<table width="50%">
     				<tr width="100%">
     				<td border="1" width="33%"><div class="profile_picture" style="display:block;width:100px;height:30px;">400</div></td>

@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import dinamica.resultadoslab.dto.ItemResultadoLab;
 import dinamica.resultadoslab.dto.ItemResultadoLabDTO;
 import dinamica.resultadoslab.dto.ResultadoLabDTO;
 
@@ -38,7 +37,13 @@ public class ResultadoLaboratorioDAOSimulador {
 		List<ItemResultadoLabDTO> items = new ArrayList<ItemResultadoLabDTO>();
 		ItemResultadoLabDTO item1 = new ItemResultadoLabDTO();
 		item1.setItem("Valores de referencia definidos en ATPIII (2004)");
-		item1.setResultado1("");
+		item1.setResultado1("1");
+		item1.setResultado2("2");
+		item1.setLimiteInferior("0");
+		item1.setLimiteSuperior("200");
+		items.add(item1);
+		
+		
 		
 		return lista;
 	}	
